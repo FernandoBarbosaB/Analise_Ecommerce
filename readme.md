@@ -4,7 +4,13 @@ Este documento demonstra o desenvolvimento técnico do projeto de análise de da
 
 ## 🏭 Arquitetura
 
-"colocar imagem da arquitetura"
+
+  
+<p align="center">
+  <img src="https://github.com/FernandoBarbosaB/Analise_Ecommerce/assets/116772002/169b0555-d0bf-4ea0-bb77-00d8801a368e" alt="Arquitetura V1">
+</p>
+
+
 
 ## ⚙️ Extração dos Dados
 
@@ -15,7 +21,8 @@ Este processo aborda a extração dos dados do site UI Bakery, que disponibiliza
 
 ### 🔩 Layout dos Dados
 
-(colocar a imagem do diagrma)
+![diagrama](https://github.com/FernandoBarbosaB/Analise_Ecommerce/assets/116772002/fa529fe4-2fa0-4135-b860-9a046868d652)
+
 
 
 
@@ -188,11 +195,12 @@ Inicialmente, foi criada a sessão do Spark (SparkSession) com o nome "Análise 
 Neste notebook, reutilizamos a função 'exibir_info_df' apresentada na etapa de tratamento.
 
 
-> <b>Qual país possui a maior quantidade de itens cancelados?</b>
+<b> Pergunta 1 - Qual país possui a maior quantidade de itens cancelados?</b>
 
->  O país com maior quantidade de itens cancelados é a Espanha, com 605 itens cancelados
+<i>O país com maior quantidade de itens cancelados é a Espanha, com 605 itens cancelados</i>
 
-(imagem gráfico resp q1)
+![gráfico da resposta](https://github.com/FernandoBarbosaB/Analise_Ecommerce/assets/116772002/5c8f35d0-b795-4b0d-998a-5a95690236c2)
+
 
 Dataframes abordados para essa questão:
 
@@ -201,12 +209,13 @@ Dataframes abordados para essa questão:
 - Customers
 
 
-> <b>Qual o faturamento da linha de produto mais vendido, considere os itens com status 'Shipped', cujo o pedido foi realizado no ano de 2005</b>
+<b> Pergunta 2 - Qual o faturamento da linha de produto mais vendido, considere os itens com status 'Shipped', cujo o pedido foi realizado no ano de 2005</b>
 
-> O faturamento da linha de produto mais vendido no ano de 2005 e com o status Shipped é: <b> 
-Classic Cars -  $ 15.559,72</b>
+<i>O faturamento da linha de produto mais vendido no ano de 2005 e com o status Shipped é: <b> 
+Classic Cars -  $ 15.559,72</b></i>
 
-(imagem graf resp q2)
+![gráfico da resposta](https://github.com/FernandoBarbosaB/Analise_Ecommerce/assets/116772002/2ca922c5-82cc-4eb4-897a-32d41ce7ce0b)
+
 
 Dataframes abordados para essa questão:
 
@@ -216,7 +225,7 @@ Dataframes abordados para essa questão:
 
 
 
-> <b>Nome, sobrenome e email dos vendedores do Japão, o local-part do e-mail deve estar mascarado.</b>
+<b> Pergunta 3 - Nome, sobrenome e email dos vendedores do Japão, o local-part do e-mail deve estar mascarado.</b>
 
 |   **first_name** | **last_name**|              **email**                   |
 |:----------------:|:------------:|:----------------------------------------:|
