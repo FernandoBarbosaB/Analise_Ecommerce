@@ -1,5 +1,4 @@
-# Análise de Dados - Ecommerce (melhorar o nome)
-
+# Análise de Dados - Ecommerce 
 Este documento demonstra o desenvolvimento técnico do projeto de análise de dados sobre a base de dados de uma empresa de E-commerce fictícia, utilizando ferramentas como Databricks e StarUML.
 
 ## 🏭 Arquitetura
@@ -21,8 +20,9 @@ Este processo aborda a extração dos dados do site UI Bakery, que disponibiliza
 
 ### 🔩 Layout dos Dados
 
-![diagrama](https://github.com/FernandoBarbosaB/Analise_Ecommerce/assets/116772002/fa529fe4-2fa0-4135-b860-9a046868d652)
 
+
+![diagrama_v2](https://github.com/FernandoBarbosaB/Analise_Ecommerce/assets/116772002/c06a55dc-db1d-4187-9fa4-30ca389669bc)
 
 
 
